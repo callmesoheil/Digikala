@@ -1,0 +1,113 @@
+.reading{
+    width: 1335px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-flow: row;
+    .right__reading{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: start;
+        align-items: center;
+        padding-right: 20px;
+        & p{
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+    .left__reading{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        & a{
+            text-decoration: none;
+            width: 100%;
+            height: inherit;
+            display: flex;
+        flex-flow: row-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 5px;
+        color: #19bfd3;
+        font-size: 12px;
+        font-weight: 550;
+        }
+        & span{
+            margin-top: 5px;
+        }
+    }
+}
+.check {
+  width: 1335px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  & a {
+    width: 325px;
+    height: inherit;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 1rem;
+    border: 1px solid #e0e0e2;
+    position: relative;
+    .top__checking {
+      width: 100%;
+      height: 200px;
+      transition: 300ms;
+      backface-visibility: hidden;
+      transform: rotateY(0);
+      & img {
+        width: 100%;
+        height: inherit;
+        object-fit: cover;
+        border-radius: 1rem;
+      }
+    }
+    &:hover .top__checking {
+      transform: rotateY(180deg);
+    }
+    .bottum__checking {
+      width: 100%;
+      height: inherit;
+      padding: 16px;
+      border-radius: 1rem;
+      background-color: #ed1844;
+      transform: rotateY(180deg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      backface-visibility: hidden;
+      transition: 600ms;
+      .p__check {
+        font-size: 12px;
+        color: black;
+        line-height: 30px;
+        opacity: 0;
+        transform: translatex(50px);
+        transition: 300ms;
+        transition-delay: 1000ms;
+      }
+    }
+    &:hover .bottum__checking {
+      transform: rotateY(0);
+    }
+    &:hover .bottum__checking .p__check {
+      opacity: 1;
+      transform: translatex(0);
+    }
+  }
+}

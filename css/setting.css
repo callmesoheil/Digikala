@@ -1,0 +1,155 @@
+@font-face {
+  font-family: iranRegular;
+  src: url(../../fonts/IRANYekanWeb.eot);
+  src: url(../../fonts/IRANYekanWeb.ttf);
+  src: url(../../fonts/IRANYekanWeb.woff);
+  src: url(../../fonts/IRANYekanWeb.woff2);
+}
+@font-face {
+  font-family: BNazanin;
+  src: url(../../fonts/b-nazanin/BNazanin.eot);
+  src: url(../../fonts/b-nazanin/BNazanin.ttf);
+  src: url(../../fonts/b-nazanin/BNazanin.woff);
+  src: url(../../fonts/b-nazanin/BNazanin.woff2);
+}
+:root {
+  --font-family-num: BNazanin;
+}
+:root {
+  --font-family: iranRegular;
+}
+body {
+  font-family: var(--font-family);
+  .swiper-button-disabled {
+    opacity: 0 !important;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  direction: rtl;
+}
+.wrapper {
+  width: 100%;
+}
+
+
+
+
+
+
+
+/* <div class="story">
+        <div class="stories">
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div>
+                  <div class="top"><img src="./images/story/1.png" alt="" /></div>
+                  <div class="bottom"><h5>یه پایه میکروفون حرفه ای</h5></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <div class="top"><img src="./images/story/2.png" alt="" /></div>
+                  <div class="bottom"><h5>هیسکا ساندبار هم داره!</h5></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <div class="top"><img src="./images/story/3.png" alt="" /></div>
+                  <div class="bottom"><h5>این گوشی قرار بود ارزون باشه</h5></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <div class="top"><img src="./images/story/4.png" alt="" /></div>
+                  <div class="bottom"><h5>بررسی کوتاه Mibto Gs Pro</h5></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+              </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/6.png" alt="" /></div>
+                  <div class="bottom"><h5>سرمِ اکسیژن‌رسانِ درمالوگ</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/7.png" alt="" /></div>
+                  <div class="bottom"><h5>تا حالا جنسینگ خوردی؟</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/8.png" alt="" /></div>
+                  <div class="bottom"><h5>اسپیکر قابل حمل بلوتوثی ۱۱3</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"<div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+            </div>
+              <div class="swiper-slide"><div>
+                  <div class="top"><img src="./images/story/5.png" alt="" /></div>
+                  <div class="bottom"><h5>مخصوص ورزش|Jabra Elite</h5></div>
+                </div>
+            </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div> */

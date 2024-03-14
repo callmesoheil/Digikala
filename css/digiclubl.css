@@ -1,0 +1,80 @@
+.digiclub {
+  width: 1335px;
+  height: 90px;
+  margin: 0 auto;
+  background-color: #0a7c9e;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  .right__digiclub {
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 30px;
+    padding-top: 5px;
+  }
+  .left__digiclub {
+    width: 70%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 5px;
+    padding-left: 14px;
+    & a {
+      text-decoration: none;
+      height: 65px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      .clubs1,
+      .clubs2,
+      .clubs3 {
+        height: 65px;
+        background-color: white;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 5px;
+        overflow: hidden;
+        & p{
+            font-size: 12px;
+            font-weight: bold;
+            color: black;    
+        }
+        & img {
+          height: 62px;
+        }
+      }
+      .clubs1 {
+        background-image: url(../../images/digiclub/clubbg1.webp);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: center left;
+        border-radius: 0 8px 8px 0;
+      }
+      .clubs2 {
+        background-image: url(../../images/digiclub/clubbg2.webp);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: left;
+      }
+      .clubs3 {
+        background-image: url(../../images/digiclub/clubbg3.webp);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: left;
+        border-radius: 8px 0 0 8px;
+
+      }
+    }
+  }
+}

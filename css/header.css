@@ -1,0 +1,196 @@
+header {
+  width: 100%;
+  height: 170px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 3px 4px lightgray;
+}
+header .banner {
+  width: inherit;
+  height: 60px;
+}
+header .banner img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+header .center {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-flow: row wrap;
+}
+header .center .logo {
+  width: 10%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .center .search {
+  width: 70%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+header .center .search .search__Icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 40px;
+  width: 600px;
+  border-radius: 7px;
+  background-color: #f0f0f1;
+  border: unset;
+  outline: unset;
+  padding-right: 10px;
+  gap: 10px;
+}
+header .center .search .search__Icon{
+  & input{
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+}
+header .center .search input[type="text"]::placeholder {
+  font-family: iranRegular;
+  font-size: 12px;
+}
+header .center .login {
+  width: 20%;
+  height: inherit;
+  padding-left: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 10px;
+}
+header .center .login a {
+  display: block;
+  width: 135px;
+  height: 40px;
+  background-color: #ffffff;
+  text-decoration: none;
+  font-family: iranRegular;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  border-radius: 7px;
+  border: 1px solid #e0e0e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+header .center .login a svg {
+  width: 24px;
+  height: 24px;
+  color: black;
+}
+header .center .login .basket {
+  all: unset;
+}
+header .center .login .line {
+  width: 1px;
+  height: 27px;
+  background-color: #e0e0e2;
+}
+header .center .login .basket svg {
+  cursor: pointer;
+}
+header .menu {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header .menu .right {
+  width: 70%;
+  height: inherit;
+}
+header .menu .right nav {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  padding-right: 28px;
+  column-gap: 20px;
+}
+header .menu .right nav div {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+  gap: 5px;
+  height: inherit;
+}
+header .menu .right nav div a {
+  height: inherit;
+  display: block;
+  font-size: 13px;
+  line-height: 40px;
+  text-decoration: none;
+  font-family: iranRegular;
+  color: #2b2b2b;
+}
+header .menu .right nav div .active {
+  font-weight: bold;
+  font-size: 14px;
+}
+header .menu .right nav div .active i {
+  margin-left: 10px;
+}
+
+header .menu .city {
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+  height: inherit;
+  font-family: iranRegular;
+  font-size: 12px;
+  position: relative
+}
+header .menu .city .cities {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 40px;
+  column-gap: 5px;
+  cursor: pointer;
+}
+header .menu .city .cities label{
+  cursor: pointer;
+}
+header .menu .city .cities input{
+  display: none;
+}
+header .menu .city .City__Select{
+  display: none;
+  flex-flow: column;
+  position: absolute;
+  width: 30vw;
+  height: 80vh;
+  background-color: white;
+  top: -20px;
+  left: 500px;
+  overflow-y: scroll;
+}
+.City__Select .City__Select_header{
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  border-bottom: 1px solid black;
+}
+.City__Select .City__Select__P{
+  font-size: 15px;
+  padding: 5px;
+}
+header .menu .city .cities input:checked +.City__Select{
+  display: flex;
+}

@@ -1,0 +1,154 @@
+.digiplus {
+  width: 1335px;
+  height: 385px;
+  background-color: #941b80;
+  margin: 30px auto;
+  border-radius: 1rem;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  .left__digiplus {
+    width: 870px;
+    height: 355px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    .topic__digiplus {
+      width: 100%;
+      height: 35px;
+      padding: 15px 15px 0 15px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      .topdig__right {
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: flex-end;
+        align-items: center;
+        column-gap: 8px;
+      }
+      .topdig__left {
+        width: 50%;
+        height: inherit;
+        & a {
+          text-decoration: none;
+          width: 100%;
+          height: inherit;
+          display: flex;
+          flex-flow: row-reverse wrap;
+          justify-content: flex-start;
+          align-items: center;
+          & p {
+            color: #941b80;
+            font-size: 12px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .image__digiplus {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 320px;
+      .top__imgdig, .bottum__imgdig {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-flow: row;
+        .img__digiplus {
+          width: 33%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          & a{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          & img {
+            width: 80%;
+            object-fit:cover;
+          }
+        }
+      }
+    }
+  }
+  .right__digiplus {
+    width: 430px;
+    height: 355px;
+    background-color: #941b80;
+    background-image: url("https://www.digikala.com/statics/img/png/digiplus/plus-widget.png");
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+     display: flex;
+     flex-flow: column;
+     justify-content: flex-start;
+     padding: 20px 24px 0 0;
+     .digiplus__main{
+      width: 390px;
+      height: 110px;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: flex-start;
+      & p{
+        color: white;
+        font-size: 14px;
+      }
+      .join{
+        all: unset;
+        border: 1px solid white;
+        width: 110px;
+        height: 40px;
+        background-color: unset;
+        border-radius: 8px;
+        margin-top: 10px;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5px;
+        cursor: pointer;
+      
+        .join__text{
+          width: 60%;
+          height: inherit;
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          padding-left: 5px;
+          & h2{
+            font-size: 12px;
+            font-weight: 500;
+            color: white;
+          }
+
+        }
+        .join__svg{
+           width: 40%;
+           height: inherit;
+           display: flex;
+           flex-flow:row ;
+           justify-content: start;
+           align-items: center;
+        }
+      }
+
+     }
+  }
+}
