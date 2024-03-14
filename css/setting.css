@@ -1,9 +1,9 @@
 @font-face {
   font-family: iranRegular;
-  src: url(../../fonts/IRANYekanWeb.eot);
-  src: url(../../fonts/IRANYekanWeb.ttf);
-  src: url(../../fonts/IRANYekanWeb.woff);
-  src: url(../../fonts/IRANYekanWeb.woff2);
+  src: url("../../fonts/IRANYekanWeb.eot");
+  src: url("../../fonts/IRANYekanWeb.ttf");
+  src: url("../../fonts/IRANYekanWeb.woff");
+  src: url("../../fonts/IRANYekanWeb.woff2");
 }
 @font-face {
   font-family: BNazanin;
@@ -19,7 +19,7 @@
   --font-family: iranRegular;
 }
 body {
-  font-family: var(--font-family);
+  font-family: iranRegular;
   .swiper-button-disabled {
     opacity: 0 !important;
   }
