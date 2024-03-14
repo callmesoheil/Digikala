@@ -1,16 +1,16 @@
 @font-face {
   font-family: iranRegular;
-  src: url("../../fonts/IRANYekanWeb.eot");
-  src: url("../../fonts/IRANYekanWeb.ttf");
-  src: url("../../fonts/IRANYekanWeb.woff");
-  src: url("../../fonts/IRANYekanWeb.woff2");
+  src: url("../fonts/IRANYekanWeb.eot");
+  src: url("../fonts/IRANYekanWeb.ttf");
+  src: url("../fonts/IRANYekanWeb.woff");
+  src: url("../fonts/IRANYekanWeb.woff2");
 }
 @font-face {
   font-family: BNazanin;
-  src: url("../../fonts/b-nazanin/BNazanin.eot");
-  src: url("../../fonts/b-nazanin/BNazanin.ttf");
-  src: url("../../fonts/b-nazanin/BNazanin.woff");
-  src: url("../../fonts/b-nazanin/BNazanin.woff2");
+  src: url("../fonts/b-nazanin/BNazanin.eot");
+  src: url("../fonts/b-nazanin/BNazanin.ttf");
+  src: url("../fonts/b-nazanin/BNazanin.woff");
+  src: url("../fonts/b-nazanin/BNazanin.woff2");
 }
 :root {
   --font-family-num: BNazanin;
